@@ -1,19 +1,22 @@
+#Introduction####
 #A bit of history and introduction to R as a whole and why and the difference between R and Rstudio 
 #is it a very important tool in the world of data science
 
 #Exploring R Studio and the different windows in it (script, environment, console, plot and help), 
 
+#Git####
 #Starting a new project, explain git and its benifits: 
  #1- version control (talk about the v1, v2, v3 problem)
  #2- Collaboration (why dropbox/mega/gdrive, and god forbid facebook is a very bad idea)
  #3- Backups and revert 
 
+#importing data####
 #Import data:
  #1- good practice in project and file naming
  #2- good practice when importing data through keeping a script
  #3- excel is one way, there is csv, SQL, json, and so on 
 
-
+#basic functions ####
 #Basic functions:
 #View()
 #str()
@@ -26,6 +29,7 @@
 #$ operator 
 #class() (string, factor, numerical, logical)
 
+#classes ####
 #Classes: 
 #string example and explanation of quotation marks
  #pay attention to the three different marks (', ", ``) 
@@ -42,6 +46,7 @@
 #do a summary after each of these operations to show the difference use mtcars$gear as an exmaple
 
 
+#shortcuts ####
 #Shortcuts: 
  #delete line 
  #delete word 
