@@ -1,5 +1,14 @@
 # R_workshop
 
+Installing R 
+
+https://cran.r-project.org/bin/windows/base/
+
+Installing R Studio 
+
+https://rstudio.com/products/rstudio/
+
+
 What is git? 
 
 
