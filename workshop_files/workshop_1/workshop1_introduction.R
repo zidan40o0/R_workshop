@@ -1,11 +1,11 @@
 #Introduction####
 #A bit of history and introduction to R as a whole and why and the difference between R and Rstudio 
 #is it a very important tool in the world of data science
-
 #Exploring R Studio and the different windows in it (script, environment, console, plot and help), 
 
+#I added a new comment
 #Git####
-#Starting a new project, explain git and its benifits: 
+#Starting a new project, explain git and its benefits: 
  #1- version control (talk about the v1, v2, v3 problem)
  #2- Collaboration (why dropbox/mega/gdrive, and god forbid facebook is a very bad idea)
  #3- Backups and revert 
@@ -60,7 +60,3 @@
  # <- 
  # pipeline operator 
  #commit to git 
-
-#Show the settings page and how they can change all of these from within it. 
-
-
