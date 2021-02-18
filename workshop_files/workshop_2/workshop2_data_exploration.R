@@ -1,3 +1,7 @@
+library(readr)
+library(tidyverse)
+df2 <- 
+  read_csv("workshop_files/workshop_2/supermarket_sales - Sheet1.csv")
 #start by doing the homework####
 #Homework Assignment#
 # 1- Make a new project
@@ -46,8 +50,6 @@
 #how to install and load a package 
 
 
-
-
 #freestyle exploration of the supermarket data #### 
  #explain the meaning of ID's and the importance of unique() 
  #look at the columns one by one 
@@ -61,13 +63,25 @@
 
 #dates and group by####
  #convert to weeks 
+
+
+mon_num <- 
+  month(mdy(df2$Date), label = T, abbr = T)
+
+
  #convert to month 
  #convert to days
  #convert to years 
  #group by year, day, week, month 
 
 #count number of members and non members for each gender 
+library(tidyverse)
+test <- 
+  df2 %>% 
+  group_by(., Gender) %>% 
+  count(`Customer type`)
 
+test
 
 View(df)
 
@@ -77,24 +91,3 @@ length(unique(df$`Invoice ID`)) #we indeed have 1000 unique IDs
 the_unique_ids <- 
   unique(df$`Invoice ID`)
 
-the_unique_ids
-
-x <- 
-  c("a", "a", "b", "b", "c", "d")
-
-length(unique(x))
-
-unique(df$Branch)
-
-length(unique(df$Branch))
-
-unique(df$City)
-
-unique(df$`Customer type`)
-unique(df$`Product line`)
-unique(df$Payment)
-
-summary(df)
-str(df)
-
-summary(df$Branch)
