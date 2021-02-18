@@ -31,4 +31,12 @@ How to clone a repository from anywhere?
 
 https://stackoverflow.com/questions/18200248/cloning-a-repo-from-someone-elses-github-and-pushing-it-to-a-repo-on-my-github
 
+# Database Workshop Tools (for Workshop 3 onwards)
 
+Download and install Dbeaver (Please install the PostgreSQL driver when prompted to)
+
+https://dbeaver.io/
+
+Signup with the AACT database (feel free to ignore the instructions of using the database, I will cover these in workshop 3) 
+
+https://aact.ctti-clinicaltrials.org/pgadmin
