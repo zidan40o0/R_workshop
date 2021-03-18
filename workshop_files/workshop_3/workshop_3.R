@@ -1,3 +1,6 @@
+#git 
+#SQL and keyring
+#doing last week's homework 
 #We begin by doing the homework from Workshop 2####
 
 #SQL and keyring####
